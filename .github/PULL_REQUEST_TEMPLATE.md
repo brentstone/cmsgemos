@@ -1,10 +1,11 @@
 <!--- Provide a general summary of your changes in the Title above -->
+<!--- Add the keyword "WIP" to the title of your PR if it is not yet ready for merging and you know it, the bot will then prevent accidental merging -->
 
 ## Description
 <!--- Describe your changes in detail -->
 
 ### Types of changes
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply (or add a new one if none of these appropriately capture your intention): -->
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to change)
