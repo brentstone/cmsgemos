@@ -1,0 +1,3 @@
+reminders:  
+  # Label applied to issues with pending reminders for the reminders bot
+  label: Status: Has Reminder
