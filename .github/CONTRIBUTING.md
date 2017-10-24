@@ -20,6 +20,7 @@ The basic idea is the following:
   * *Never* use ```git commit -a```
   * *Avoid* ```git commit -m``` over ```git commit -p``` or ```git commit```, as it will force you to think about your commit message
     * Speaking of... commit messages should be descriptive, not like a novel, but concise and complete.  If they reference an issue or PR, please include that information.
+      * "close #XXX, closes #XXX, closed #XXX, fixes #XXX, fixed #XXX"
   * *Prefer* ```git rebase``` over ```git pull```
 
 ### Coding Style
@@ -37,7 +38,7 @@ Once you have tested your code, you are ready to make a pull request.  If it ref
 #### Issue and Pull Request Labels
 There are several labels used to track issues.  Unfortunately, due to the way that github is set up, general users are not
 able to add these labels.  As such, they are outlined here, and when creating an issue or pull request, should be referenced
-in the title so that the maintainers can apply the appropriate label easily.
+in the title so that the maintainers (or bot) can apply the appropriate label easily.
 
 | Label name | `cms-gem-daq-project/cmsgemos` :mag_right: | `cms-gem-daq-project` :mag_right: | Description |
 | ---------- |:------------------------------------------ |:--------------------------------- |:----------- |
@@ -52,7 +53,7 @@ in the title so that the maintainers can apply the appropriate label easily.
 | `Type: Answer` | search [`cmsgemos`][search-cmsgemos-repo-label-answer] for issues | search [`cms-gem-daq-project`][search-cms-gem-daq-project-label-answer] for issues | Issue will answer a previously referenced question|
 
 #### Issue and Pull Request Labels
-Maintainers will (hopefully) attach a priority based on the information given in the issue/PR.
+Maintainers (or a triage bot) will (hopefully) attach a priority based on the information given in the issue/PR.
 
 | Label name | `cms-gem-daq-project/cmsgemos` :mag_right: | `cms-gem-daq-project` :mag_right: | Description |
 | ---------- |:------------------------------------------ |:--------------------------------- |:----------- |
@@ -62,7 +63,7 @@ Maintainers will (hopefully) attach a priority based on the information given in
 | `Priority: Critical` | search [`cmsgemos`][search-cmsgemos-repo-priority-critical] for issues | search [`cms-gem-daq-project`][search-cms-gem-daq-project-priority-critical] for issues | Priority `critical` assigned to issue/PR |
 
 #### Pull Request Status Labels
-Maintainers will (hopefully) properly migrate issues and pull requests through the various stages on their path to resolution.
+Maintainers (or bots) will (hopefully) properly migrate issues and pull requests through the various stages on their path to resolution.
 
 | Label name | `cms-gem-daq-project/cmsgemos` :mag_right: | `cms-gem-daq-project` :mag_right: | Description |
 | ---------- |:------------------------------------------ |:--------------------------------- |:----------- |
