@@ -1,3 +1,27 @@
+# Configuration for reminders - https://github.com/probot/reminders
 reminders:  
   # Label applied to issues with pending reminders for the reminders bot
   label: Status: Has Reminder
+
+# Configuration for request-info - https://github.com/behaviorbot/request-info
+# *Required* Comment to reply with
+requestInfoReplyComment: >
+  We would appreciate it if you could provide us with more info about this issue/pr!
+
+# *OPTIONAL* default titles to check against for lack of descriptiveness
+# MUST BE ALL LOWERCASE
+requestInfoDefaultTitles:
+  - update readme.md
+  - updates
+
+# *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
+requestInfoLabelToAdd: Status: Needs Info
+
+# Configuration for update-docs - https://github.com/behaviorbot/update-docs
+# Comment to be posted to on PRs that don't update documentation
+updateDocsComment: >
+  Thanks for opening this pull request! The maintainers of this repository would appreciate it if you ensure that documentation depending on your changes is up-to-date.
+
+updateDocsWhiteList:
+  - bug
+  - chore
